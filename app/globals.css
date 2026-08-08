@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --color-backwater: #1b4d3e;
+  --color-backwater-dark: #123329;
+  --color-ricewhite: #f6f1e4;
+  --color-laterite: #c4491d;
+  --color-laterite-dark: #9c3814;
+  --color-gold: #f5b400;
+  --color-gold-dark: #c98a00;
+  --color-charcoal: #211f1a;
+  --color-monsoon: #8fa89b;
+
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-inter);
+  --font-data: var(--font-jetbrains);
+}
+
+@theme {
+  --breakpoint-xs: 26rem;
+}
+
+@theme inline {
+  --color-backwater: var(--color-backwater);
+  --color-backwater-dark: var(--color-backwater-dark);
+  --color-ricewhite: var(--color-ricewhite);
+  --color-laterite: var(--color-laterite);
+  --color-laterite-dark: var(--color-laterite-dark);
+  --color-gold: var(--color-gold);
+  --color-gold-dark: var(--color-gold-dark);
+  --color-charcoal: var(--color-charcoal);
+  --color-monsoon: var(--color-monsoon);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-data: var(--font-data);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--color-ricewhite);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+}
+
+/* Visible keyboard focus ring everywhere, brand-coloured, no outline: none anywhere */
+:focus-visible {
+  outline: 3px solid var(--color-laterite);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-data {
+  font-family: var(--font-data);
+}
+
+/* Route-line signature motif: dashed vertical rail used by RouteRail + hero */
+.route-dash {
+  stroke-dasharray: 10 9;
+}
+
+@keyframes route-draw {
+  from {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-route-draw {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: route-draw 1.8s cubic-bezier(0.65, 0, 0.35, 1) 0.4s forwards;
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <clipPath id="pinClip">
+      <path d="M100 42 C128 42 151 64 151 94 C151 128 100 164 100 164 C100 164 49 128 49 94 C49 64 72 42 100 42 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect x="16" y="16" width="168" height="168" rx="40" fill="#0B1F3A"/>
+
+  <path d="M100 42 C128 42 151 64 151 94 C151 128 100 164 100 164 C100 164 49 128 49 94 C49 64 72 42 100 42 Z" fill="#00B8A9"/>
+
+  <g clip-path="url(#pinClip)">
+    <rect x="-70" y="-9" width="140" height="18" fill="#FFFFFF" transform="translate(100,106) rotate(-40)"/>
+    <line x1="-70" y1="0" x2="70" y2="0" stroke="#0B1F3A" stroke-width="5" stroke-dasharray="16 12" stroke-linecap="round" transform="translate(100,106) rotate(-40)"/>
+  </g>
+
+  <text x="208" y="116" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="0.5">
+    <tspan fill="#0B1F3A">Taxi</tspan><tspan fill="#00B8A9">Path</tspan>
+  </text>
+</svg>

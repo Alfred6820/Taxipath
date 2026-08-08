@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <clipPath id="pinClipD">
+      <path d="M100 42 C128 42 151 64 151 94 C151 128 100 164 100 164 C100 164 49 128 49 94 C49 64 72 42 100 42 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect x="16" y="16" width="168" height="168" rx="40" fill="#F5B400"/>
+
+  <path d="M100 42 C128 42 151 64 151 94 C151 128 100 164 100 164 C100 164 49 128 49 94 C49 64 72 42 100 42 Z" fill="#FFFFFF" stroke="#C98A00" stroke-width="2.5"/>
+
+  <g clip-path="url(#pinClipD)">
+    <polygon points="-72,-12 72,-4 72,4 -72,12" fill="#F5B400" transform="translate(100,106) rotate(-40)"/>
+    <line x1="-58" y1="0" x2="58" y2="0" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="9 7" stroke-linecap="round" transform="translate(100,106) rotate(-40)"/>
+  </g>
+
+  <text x="212" y="118" font-family="'Montserrat','Poppins','Century Gothic','Segoe UI',Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="0.3" fill="#C98A00">Taxi<tspan fill="#F5B400">Path</tspan></text>
+</svg>
