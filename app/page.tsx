@@ -10,7 +10,7 @@ import EnquiryForm from "@/components/EnquiryForm";
 export const metadata: Metadata = {
   title: "Taxi in Kochi | Airport & Sabarimala Taxi Service",
   description:
-    "Book a hatchback or MPV taxi in Kochi. Airport taxi service in Kochi, Sabarimala taxi service, and outstation trips. Call or WhatsApp +91 99952 07388 for a fare estimate.",
+    "Book a 4 Seater or 7 Seater taxi in Kochi. Airport taxi service in Kochi, Sabarimala taxi service, and outstation trips. Call or WhatsApp +91 99952 07388 for a fare estimate.",
 };
 
 export default function Home() {

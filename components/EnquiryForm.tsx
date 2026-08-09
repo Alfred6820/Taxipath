@@ -7,8 +7,8 @@ import LocationMap from "./LocationMap";
 
 const VEHICLE_OPTIONS = [
   { value: "", label: "Any / not sure" },
-  { value: "Hatchback (Wagon R)", label: "Hatchback (Wagon R)" },
-  { value: "MPV (Ertiga / Innova Crysta / Mobilio)", label: "MPV (Ertiga / Innova Crysta / Mobilio)" },
+  { value: "4 Seater (Wagon R)", label: "4 Seater (Wagon R)" },
+  { value: "7 Seater (Ertiga / Innova Crysta / Mobilio)", label: "7 Seater (Ertiga / Innova Crysta / Mobilio)" },
 ];
 
 export default function EnquiryForm() {

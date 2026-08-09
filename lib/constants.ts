@@ -1,4 +1,4 @@
-export const PHONE_DISPLAY = "+919995207388";
+export const PHONE_DISPLAY = "+91 9995207388";
 export const PHONE_TEL = "+919995207388";
 export const PHONE_TEL_HREF = `tel:${PHONE_TEL}`;
 export const WHATSAPP_NUMBER = "919995207388";

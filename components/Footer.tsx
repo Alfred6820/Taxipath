@@ -22,7 +22,7 @@ export default function Footer() {
               className="h-10 w-auto"
             />
             <p className="mt-3 font-body text-sm">
-              Hatchback &amp; MPV taxi service in Kochi — airport transfers,
+              4 Seater &amp; 7 Seater taxi service in Kochi — airport transfers,
               Sabarimala trips, and outstation hires.
             </p>
           </div>

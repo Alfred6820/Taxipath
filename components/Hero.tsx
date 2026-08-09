@@ -24,7 +24,7 @@ export default function Hero() {
             ))}
           </h1>
           <p className="mt-5 max-w-md text-base text-ricewhite/85 sm:text-lg mx-auto lg:mx-0">
-            Hatchback and MPV taxis in Kochi — airport transfers, Sabarimala
+            4 Seater and 7 Seater taxis in Kochi — airport transfers, Sabarimala
             trips, and outstation hires with a driver who shows up on time.
           </p>
 

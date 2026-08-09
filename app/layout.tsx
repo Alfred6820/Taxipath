@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME} Kochi`,
   },
   description:
-    "TaxiPath is a Kochi-based taxi service offering hatchback and MPV rides, airport taxi service in Kochi, and Sabarimala taxi service. Call or WhatsApp +91 99952 07388 for an instant quote.",
+    "TaxiPath is a Kochi-based taxi service offering 4 Seater and 7 Seater rides, airport taxi service in Kochi, and Sabarimala taxi service. Call or WhatsApp +91 99952 07388 for an instant quote.",
   keywords: [
     "taxi in Kochi",
     "Kochi taxi service",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${SITE_NAME} — ${TAGLINE}`,
     description:
-      "Hatchback & MPV taxi service in Kochi. Airport transfers, Sabarimala trips, outstation hires. Call or WhatsApp +91 99952 07388.",
+      "4 Seater & 7 Seater taxi service in Kochi. Airport transfers, Sabarimala trips, outstation hires. Call or WhatsApp +91 99952 07388.",
     url: SITE_URL,
     siteName: SITE_NAME,
     locale: "en_IN",

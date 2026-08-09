@@ -18,7 +18,7 @@ export default function FleetSection() {
             <div key={vehicle.id} className="rounded-2xl border border-monsoon/25 p-4">
               <VehiclePlaceholderArt
                 label={vehicle.name}
-                variant={vehicle.category === "Hatchback" ? "hatchback" : "mpv"}
+                variant={vehicle.category === "4 Seater" ? "hatchback" : "mpv"}
               />
               <h3 className="font-display mt-4 text-lg font-semibold text-backwater">
                 {vehicle.name}
