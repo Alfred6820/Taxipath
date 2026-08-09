@@ -24,7 +24,7 @@ export default function FleetSection() {
                 {vehicle.name}
               </h3>
               <p className="mt-1 font-data text-xs uppercase tracking-wide text-laterite">
-                {vehicle.category} · {vehicle.seats}
+                {vehicle.category}
               </p>
               <p className="mt-2 font-body text-sm text-charcoal/70">{vehicle.note}</p>
             </div>
