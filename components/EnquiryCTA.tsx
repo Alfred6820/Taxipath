@@ -21,7 +21,7 @@ export default function EnquiryCTA({ compact = false }: { compact?: boolean }) {
         <span className="font-body text-xs text-charcoal/50">or</span>
         <a
           href={PHONE_TEL_HREF}
-          className="inline-flex items-center gap-1.5 rounded-full border border-laterite px-4 py-2.5 font-data text-sm font-semibold text-laterite transition-colors hover:bg-laterite hover:text-ricewhite"
+          className="inline-flex items-center gap-1.5 rounded-full border border-laterite px-4 py-2.5 font-body text-sm font-semibold text-laterite transition-colors hover:bg-laterite hover:text-ricewhite"
         >
           <span aria-hidden>☎</span> Call {PHONE_DISPLAY}
         </a>

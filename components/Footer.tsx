@@ -46,7 +46,7 @@ export default function Footer() {
             </h2>
             <dl className="mt-3 space-y-2 font-body text-sm">
               <div>
-                <a href={PHONE_TEL_HREF} className="font-data text-gold">
+                <a href={PHONE_TEL_HREF} className="font-body text-gold">
                   {PHONE_DISPLAY}
                 </a>
               </div>

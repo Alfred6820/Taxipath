@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start">
             <a
               href={PHONE_TEL_HREF}
-              className="flex w-full items-center justify-center gap-2 rounded-full bg-gold px-6 py-3.5 font-data text-lg font-semibold text-charcoal transition-colors hover:bg-gold-dark sm:w-auto"
+              className="flex w-full items-center justify-center gap-2 rounded-full bg-gold px-6 py-3.5 font-body text-lg font-semibold text-charcoal transition-colors hover:bg-gold-dark sm:w-auto"
             >
               <span aria-hidden>☎</span>
               {PHONE_DISPLAY}

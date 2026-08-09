@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { buildEnquiryWhatsAppUrl } from "@/lib/whatsapp";
 import { ADDRESS, OPERATING_HOURS, PHONE_DISPLAY, PHONE_TEL_HREF, WHATSAPP_BASE } from "@/lib/constants";
+import LocationMap from "./LocationMap";
 
 const VEHICLE_OPTIONS = [
   { value: "", label: "Any / not sure" },
@@ -181,7 +182,7 @@ export default function EnquiryForm() {
             <div>
               <dt className="text-ricewhite/60">Phone &amp; WhatsApp</dt>
               <dd>
-                <a href={PHONE_TEL_HREF} className="font-data text-base font-semibold text-gold">
+                <a href={PHONE_TEL_HREF} className="font-body text-base font-semibold text-gold">
                   {PHONE_DISPLAY}
                 </a>
               </dd>
@@ -198,6 +199,10 @@ export default function EnquiryForm() {
               <dd>{ADDRESS}</dd>
             </div>
           </dl>
+
+          <div className="mt-5">
+            <LocationMap />
+          </div>
         </aside>
       </div>
     </section>

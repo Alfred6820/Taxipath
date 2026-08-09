@@ -37,7 +37,7 @@ export default function Nav() {
 
         <a
           href={PHONE_TEL_HREF}
-          className="flex shrink-0 items-center gap-2 rounded-full bg-gold px-3 py-2 font-data text-xs font-semibold text-charcoal transition-colors hover:bg-gold-dark sm:text-sm sm:px-4"
+          className="flex shrink-0 items-center gap-2 rounded-full bg-gold px-3 py-2 font-body text-xs font-semibold text-charcoal transition-colors hover:bg-gold-dark sm:text-sm sm:px-4"
         >
           <span aria-hidden className="text-base leading-none">☎</span>
           <span className="hidden xs:inline">{PHONE_DISPLAY}</span>
